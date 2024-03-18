@@ -1,4 +1,4 @@
-![image](https://github.com/geun99/yetigg/assets/150868973/d531f0e0-ebfa-4a6b-bf6e-ebcdb2ea523f)![image](https://github.com/geun99/yetigg/assets/150868973/0c0a44a1-5f96-4b27-a099-929ff7bc7d77)# 메이플랜드 정보사이트 (엘나스 산맥까지 구현)
+# 메이플랜드 정보사이트 (엘나스 산맥까지 구현)
 
 ## React.JS + Redux + TypeScript + Styled Components + FireBase
 
