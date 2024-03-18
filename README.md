@@ -1,6 +1,6 @@
 # 메이플랜드 정보사이트 (엘나스 산맥까지 구현)
 
-## React.JS + TypeScript + Styled Components
+## React.JS + Redux + TypeScript + Styled Components + FireBase
 
 ### 정보 출처
 - [maplestory Inven](https://maple.inven.co.kr/)
