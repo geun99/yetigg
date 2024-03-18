@@ -2,6 +2,12 @@
 
 ## React.JS + Redux + TypeScript + Styled Components + FireBase
 
+### 기능
+- 몬스터, 아이템 검색
+- 몬스터, 아이템 목록 불러오기
+- 몬스터, 아이템 필터링
+- 몬스터, 아이템 상세정보 능력치, 정보, 스폰장소, 드롭 등등...
+
 ### 정보 출처
 - [maplestory Inven](https://maple.inven.co.kr/)
 - [OldSchoolMaple](https://osmlib.com/)
