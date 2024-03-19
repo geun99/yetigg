@@ -1,25 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router";
+import Main from "./pages/Main";
+import Monster from "./pages/Monster";
+import MonsterDetail from "./pages/MonsterDetail";
+import ItemDetail from "./pages/ItemDetail";
+import Item from "./pages/Item";
+import SearchResult from "./pages/SearchResult";
+import Navbar from "./components/Common/Navbar";
+import Footer from "./components/Common/Footer";
+import { GlobalStyle } from "./style/global";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/monster" element={<Monster />} />
+        <Route path="/monster/:monsterId" element={<MonsterDetail />} />
+        <Route path="/item" element={<Item />} />
+        <Route path="/item/:itemId" element={<ItemDetail />} />
+        <Route path="/search/:search" element={<SearchResult />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 

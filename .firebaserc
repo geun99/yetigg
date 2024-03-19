@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "yeti-286e6",
+    "yeti": "yeti-286e6"
+  },
+  "targets": {},
+  "etags": {}
+}
