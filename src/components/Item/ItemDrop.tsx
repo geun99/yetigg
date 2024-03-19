@@ -105,6 +105,7 @@ export const DropStyle = styled.div`
 
       img {
         padding-bottom: 10px;
+        max-width: 100px;
       }
     }
   }
