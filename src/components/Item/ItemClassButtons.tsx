@@ -26,7 +26,9 @@ const ItemClassButtons = () => {
   };
   return (
     <ButtonsStyle>
-      <p onClick={toggleJobButtons}>직업별 장비 분류</p>
+      <p onClick={toggleJobButtons} className="item-p">
+        직업별 장비 분류
+      </p>
       <div className={`btns job ${isJobActive ? "active" : ""}`}>
         {buttons.map((btn, idx) => {
           return (
@@ -41,7 +43,10 @@ const ItemClassButtons = () => {
 };
 
 export const ButtonsStyle = styled.div`
-  p {
+  h2 {
+    font-size: 1rem;
+  }
+  .item-p {
     margin-bottom: 10px;
   }
   .btns {

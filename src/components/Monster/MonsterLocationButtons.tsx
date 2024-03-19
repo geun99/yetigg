@@ -9,8 +9,8 @@ const MonsterLocationButtons = () => {
   const continents = ["엘나스 산맥", "빅토리아 아일랜드"];
   return (
     <ButtonsStyle>
-      <p>지역별 필터</p>
-      <div className="btns">
+      <h2>지역별 필터</h2>
+      <div className="btns active">
         {buttons.map((btn, idx) => {
           return (
             <Button className="btn" key={idx} onClick={() => dispatch(btn())}>

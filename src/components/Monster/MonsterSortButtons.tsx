@@ -9,8 +9,8 @@ const MonsterSortButtons = () => {
   const sorts = ["이름별 정렬", "레벨별 정렬"];
   return (
     <ButtonsStyle>
-      <p>지역별 필터</p>
-      <div className="btns">
+      <h2>정렬</h2>
+      <div className="btns active">
         {buttons.map((btn, idx) => {
           return (
             <Button className="btn" key={idx} onClick={() => dispatch(btn())}>
