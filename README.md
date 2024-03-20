@@ -1,5 +1,5 @@
 # 메이플랜드 정보사이트 (엘나스 산맥까지 구현)
-
+- [기존 Repo](https://github.com/geun99/yeti.gg) 해당 프로젝트를 TypeScript와 StyledComponent를 이용해 마이그레이션 하였고, 반응형 웹으로 변경한 Repository입니다
 ## React.JS + Redux + TypeScript + Styled Components + FireBase
 
 ### 기능
